@@ -1,0 +1,90 @@
+/*delete the following line if no text is used*/
+/* edit the line if you wanna use other fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime&display=swap');
+
+/* use only the available space inside the 400x400 frame */
+.frame {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 400px;
+  height: 400px;
+  margin-top: -200px;
+  margin-left: -200px;
+  border-radius: 5px;
+	box-shadow: 4px 8px 16px 0 rgba(0,0,0,0.1);
+	overflow: hidden;
+  background: #43389F;
+  background-image: linear-gradient(to top right, #43389F, rgb(63, 200, 191));
+  color: #fff;
+	font-family: 'Courier Prime', monospace;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+.num{
+  position: relative;
+  height: 100px;
+  width: 200px;
+}
+
+.One_1{
+  position: absolute;
+  left: -15px;
+  width: 20px;
+  height: 38px;
+  background-color: #fff;
+  rotate: 50deg;
+  border-radius: 2px;
+  z-index: 3;
+  box-shadow: 0 0 13px rgba(0,0,0,0.3);
+}
+
+.one_2{
+  position: absolute;
+  width: 23px;
+  height: 100px;
+  background-color: #fff;
+  border-radius: 2px;
+  z-index: 4;
+  box-shadow: 0 0 13px rgba(0,0,0,0.3);
+}
+
+.Zero_1{
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  left: 17px;
+  border-radius: 50%;
+  border: 25px solid;
+  z-index: 3;
+  box-shadow: 0 0 13px rgba(0,0,0,0.3);
+}
+
+.Zero_2{
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  left: 100px;
+  border-radius: 50%;
+  border: 25px solid;
+  z-index: 2;
+  box-shadow: 0 0 13px rgba(0,0,0,0.3);
+}
+
+.Days{
+  font-size: 85px;
+  margin: -5;
+}
+ .css{
+  text-align: center;
+  font-size: 25px;
+  margin: -22;
+ }
